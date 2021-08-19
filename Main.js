@@ -1,6 +1,8 @@
 function myFunction(){
   var a= document.getElementById("name1").value;
 
+  var targetDiv = document.getElementById("pok1").style.display="block";
+
 
 const apiData = {
     url: "https://pokeapi.co/api/v2/",
